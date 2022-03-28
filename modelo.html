@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Verificador de idade</title>
+</head>
+<body>
+  <header>
+    <h1>Verificador de Idade</h1>
+  </header>
+
+  <section>
+    <div>
+      <p>Ano de nascimento
+        <input type="number" name="txtano" id="txtano" min="0">
+      </p>
+
+      <p>Sexo:
+        <input type="radio" name="radsex" id="mas" checked>
+        <label for="mas">Masculino</label>
+        <input type="radio" name="radsex" id="fem">
+        <label for="fem">Feminino</label>
+      </p>
+
+      <p><input type="button" value="verificar" onclick="verificar()"></p>
+    </div>
+
+    <div id="res">
+      <h4>Preencha os dados acima para ver o resultado!</h4>
+    </div>
+  </section>
+
+  <footer class="footer-box">
+    <div class="footer-menu">
+    <div class="social-media-flex">
+    <a href="https://github.com/CaioIan" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />
+      GitHub
+      </a>
+    </div>
+
+    <div class="social-media-flex">
+    <a href="https://www.linkedin.com/in/caio-ian-oliveira-7b830b20b/" target="_blank">
+    <img src="https://t.ctcdn.com.br/o6YUYZNxhn1ob0FEjQo-a7KapYU=/400x400/smart/i490027.jpeg"/>
+          Linkedin
+      </a>
+      </div>
+      </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
